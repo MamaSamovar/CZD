@@ -1,0 +1,11 @@
+.wrapper {
+  height: 100%;
+  background-color: rgb(228, 237, 95);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+  background-color: rgb(228, 237, 95);
+}
