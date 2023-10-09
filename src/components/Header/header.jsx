@@ -4,12 +4,21 @@ function Header() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <div className={styles.logo}></div>
-        <div className={styles.adress}></div>
+        <div className={styles.left_part}>
+          <div className={styles.logo}>
+            <img src='/image/logo_2.png' alt='logo' />
+          </div>
+          <div>
+            <p>Центр Здоровья и Долголетия</p>
+            <p>АГУ</p>
+          </div>
+        </div>
+        <div className={styles.right_part}>
+          <div className={styles.adress}>
+            <p>РА, г. Майкоп, ул. Первомайская, 208</p>
+          </div>
+        </div>
       </div>
-      <p>
-        <b>Header</b>
-      </p>
     </div>
   );
 }
