@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  font-family: 'Hero';
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Dealerplate';
+  src: local('Dealerplate'),
+    url('./fonts/Dealerplate.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Garet';
+  src: local('Garet'),
+    url('./fonts/Garet.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Geologica';
+  src: local('Geologica'),
+    url('./fonts/Geologica.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Hero';
+  src: local('Hero'),
+    url('./fonts/Hero.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Kardinal';
+  src: local('Kardinal'),
+    url('./fonts/Kardinal.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Kosko';
+  src: local('Kosko'),
+    url('./fonts/Kosko.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url('./fonts/Montserrat.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Rozovii_Chulok';
+  src: local('Rozovii_Chulok'),
+    url('./fonts/Rozovii_Chulok.ttf');
+  font-weight: 400;
+}

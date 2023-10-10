@@ -1,5 +1,11 @@
 .wrapper {
+  padding: 40px;
   width: 100%;
   max-height: max-content;
-  background-color: coral;
+  /* background-color: coral; */
+}
+
+.test_ttf {
+  font-family: 'Garet';
+  line-height: 20px;
 }

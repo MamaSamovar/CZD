@@ -1,6 +1,14 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
+import './fonts/Dealerplate.ttf';
+import './fonts/Garet.ttf';
+import './fonts/Geologica.ttf';
+import './fonts/Hero.ttf';
+import './fonts/Kardinal.ttf';
+import './fonts/Kosko.ttf';
+import './fonts/Montserrat.ttf';
+import './fonts/Rozovii_Chulok.ttf';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
