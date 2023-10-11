@@ -4,24 +4,106 @@
   min-height: max-content;
   background-color: #162230;
   color: white;
+  background: rgb(180, 223, 223);
+  background: radial-gradient(circle, rgba(245, 198, 79, 0.6224614845938375) 0%, rgba(255, 248, 65, 0.3983718487394958) 47%, rgba(180, 223, 223, 0.5104166666666667) 100%);
+  color: rgb(33, 36, 36);
+  background: linear-gradient(266deg, rgba(180, 223, 223, 1) 0%, rgba(255, 248, 65, 0.3983718487394958) 66%, rgba(249, 195, 77, 0.6840861344537815) 76%, rgba(255, 248, 65, 0.5328256302521008) 86%, rgba(180, 223, 223, 0.5104166666666667) 100%);
+  background: linear-gradient(266deg, rgba(180, 223, 223, 1) 0%, rgba(255, 248, 65, 0.3983718487394958) 49%, rgba(249, 195, 77, 0.4543942577030813) 76%, rgba(255, 248, 65, 0.5328256302521008) 90%, rgba(180, 223, 223, 0.5104166666666667) 100%);
+  background: linear-gradient(266deg, rgba(180, 223, 223, 1) 0%, rgba(255, 248, 65, 0.3983718487394958) 49%, rgba(249, 195, 77, 0.4543942577030813) 82%, rgba(255, 248, 65, 0.3339460784313726) 90%, rgba(180, 223, 223, 0.5104166666666667) 100%);
 }
 
 .container {
-  padding: 20px;
+  padding: 50px 30px;
   display: flex;
   justify-content: space-between;
+  gap: 50px;
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .left_part,
 .right_part {
   display: flex;
-  gap: 10px;
+}
+
+.left_part {
   align-items: center;
+  gap: 20px;
 }
 
 .logo {
   width: 50px;
   min-width: 50px;
+}
+
+.czid {
+  font-size: 1.5em;
+}
+
+.agu {
+  font-size: 1em;
+}
+
+.right_part {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img_wrap {
+  min-width: 30px;
+  max-width: 30px;
+}
+
+.adress,
+.phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    gap: 30px;
+  }
+
+  /* .czid {
+    font-size: 1.625em;
+  }
+
+  .agu {
+    font-size: 1.125em;
+  } */
+
+  .right_part {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .adress_point,
+  .phone_point {
+    display: none;
+  }
+
+  .img_wrap {
+    min-width: 40px;
+    max-width: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .czid {
+    font-size: 1.125em;
+  }
+
+  .agu {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 530px) {
+  .agu {
+    max-width: 212px;
+  }
 }

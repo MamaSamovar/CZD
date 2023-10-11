@@ -4,35 +4,48 @@ import styles from './navigation.module.css';
 function Navigation() {
   return (
     <div className={styles.wrapper}>
-      <p>
-        <b>Navigation</b>
-      </p>
-      <ul>
-        <li>
-          <Link to='/'>Главная</Link>
-        </li>
-        <li>
-          <Link to='/about'>О нас</Link>
-        </li>
-        <li>
-          <Link to='/courses'>Направения</Link>
-        </li>
-        <li>
-          <Link to='/timetable'>Расписание</Link>
-        </li>
-        <li>
-          <Link to='/online-school'>Онлайн-школа</Link>
-        </li>
-        <li>
-          <Link to='/prices'>Цены</Link>
-        </li>
-        <li>
-          <Link to='/materials'>Библиотека</Link>
-        </li>
-        <li>
-          <Link to='/contacts'>Контакты</Link>
-        </li>
-      </ul>
+      <div className={styles.container}>
+        <ul className={styles.menu}>
+          {/* <li className={styles.link}>
+            <Link className={styles.menu_point} to='/'>Главная</Link>
+          </li> */}
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/about'>
+              О нас
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/courses'>
+              Направления
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/timetable'>
+              Расписание
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/prices'>
+              Цены
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/online-school'>
+              Онлайн-школа
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/materials'>
+              Библиотека
+            </Link>
+          </li>
+          <li className={styles.link}>
+            <Link className={styles.menu_point} to='/contacts'>
+              Контакты
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
